@@ -25,6 +25,7 @@ find_package(Crypto++ REQUIRED)
 find_package(PugiXML REQUIRED)
 find_package(MySQL)
 find_package(Threads)
+find_package(GMP REQUIRED)
 
 # Selects LuaJIT if user defines or auto-detected
 if(DEFINED USE_LUAJIT AND NOT USE_LUAJIT)
