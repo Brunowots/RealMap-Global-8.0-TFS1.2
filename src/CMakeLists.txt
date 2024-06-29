@@ -73,3 +73,5 @@ set(tfs_SRC
 	${CMAKE_CURRENT_LIST_DIR}/wildcardtree.cpp
 )
 
+# Make tfs_SRC available to parent scope
+set(tfs_SRC ${tfs_SRC} PARENT_SCOPE)
